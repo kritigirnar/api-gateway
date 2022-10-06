@@ -16,7 +16,7 @@ public class LoggingFilter implements GlobalFilter{
 	
 		logger.info("path of the input request",exchange.getRequest().getURI());
 		return chain.filter(exchange);
-	}
+	}  
 
 	
 }
